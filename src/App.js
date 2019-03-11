@@ -13,16 +13,15 @@ class App extends Component {
               <a href="number">385.154.11.28.38</a>
             </div>
             <div class='header-btns'>
-              <span class="light-text">LOGIN</span>{" "}
-              <span class="dark-text">SIGNUP</span>
+              <span class="login">LOGIN</span>{" "}
+              <span class="sign-up">SIGNUP</span>
             </div>
           </div>
         </div>
         <section>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">
-            Your
-            Logo
+            <Navbar.Brand href="#home" style={{paddingLeft: "4rem", display: "flex", justifyContent:"space-between"}}>
+              <span className="logo">Your <strength style={{color:"#FF5703"}}>Logo</strength></span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -118,9 +117,9 @@ class App extends Component {
 
         <section>
           <div class="main-title">
-            <h3>
+            <h5>
               Home / Who we are / <span class="contact-span">Contact</span>
-            </h3>
+            </h5>
           </div>
 
           <div class="nav-main-content">
@@ -155,28 +154,28 @@ class App extends Component {
               </Form.Row>
 
               <Form.Group controlId="formGridAddress2">
-                <Form.Control placeholder="Message" />
+                <Form.Control placeholder="Message*" />
               </Form.Group>
 
               <Button variant="primary" type="submit">
                 Submit
               </Button>
             </Form>
-            ;
+
           </div>
           <div class="contact-details">
           <h2>REACH US</h2>
           <hr/>
-            <h4>Coalition Skills Test</h4>
-            <address>535 La Plata Street 4200 Argentina</address>
-            <p />
-            <p>Phone:385.154.11.28.38</p>
+            <p>Coalition Skills Test</p>
+            <p>535 La Plata Street <br/> 4200 Argentina</p>
+            <br/>
+            <span>Phone:385.154.11.28.38</span>
             <p>Fax:385.154.35.66.78</p>
           <div class="fa-icons">
-            <i>icon</i>
-            <i>icon</i>
-            <i>icon</i>
-            <i>icon</i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>            
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-pinterest-square"></i>
           </div>
           </div>
         </div>

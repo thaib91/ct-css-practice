@@ -1,10 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .header-wrapper{
   background-color: #FF5703;
 }
 
+.main-page{
+  font-family: 'Roboto', sans-serif;
+  height: 100vh !important;
+  margin-bottom: 5rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 5rem;
+  align-items: center;
+  height: 5vh;
+}
+.logo{
+  font-size: 2.4rem;
+}
+.strength{
+  color:#FF5703;
+}
 .bg-dark {
   background-color: #F8F8F8 !important;
   color: black;
+  height: 6rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -26,9 +49,17 @@ h2{
   color:#FF5703;
 }
 
-h3{
+h5{
   color:#ACACAC;
+  padding-top: 3rem;
+  padding-left: 4rem;
 }
+.nav-main-content{
+  padding-top: 3rem;
+  padding-left: 4rem;
+  margin-bottom: 4rem;
+}
+
 .main-content{
   color:#ACACAC;
 }
@@ -37,11 +68,39 @@ h3{
   max-width: 45vw;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: 7px solid #484848;
+}
+
 .contact-info{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 8rem;
+  
 }
 
 .contact-details{
   right: 10rem;
+  width: 24rem;
 }
+
+.fa-icons{
+  color: gray;
+  display: flex;
+  justify-content: flex-start;
+}
+
+i{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+
+.sign-up {
+  color: white;
+  padding-left: 1rem;
+}
+
