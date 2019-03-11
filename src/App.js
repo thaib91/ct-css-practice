@@ -168,7 +168,6 @@ class App extends Component {
           <hr/>
             <p>Coalition Skills Test</p>
             <p>535 La Plata Street <br/> 4200 Argentina</p>
-            <br/>
             <span>Phone:385.154.11.28.38</span>
             <p>Fax:385.154.35.66.78</p>
           <div class="fa-icons">
